@@ -1,0 +1,94 @@
+nav {
+  background-color: #282c34;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #282c34;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #61dafb;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px; 
+  gap: 20px;
+  overflow-x: auto;
+  justify-content: space-between;
+  border: 2px solid; 
+  border-color: red;
+  border-radius: 8px;
+  background-image: url('https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448751.jpg?t=st=1716394804~exp=1716398404~hmac=21aae81a0fe95d0dcc4c8d232e2c34486046dd9166358b70c93d7f613e8344e8&w=900');
+
+}
+
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;}
+  
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px black;
+  border-color: red;
+}
+.span{
+  color: red;
+}
+
+.admin {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000000;
+  background-color:aqua; 
+  padding: 20px;
+  box-shadow:blanchedalmond;
+  border-radius: 8px;
+  width: fit-content;
+  margin-left: 400px;
+  height: 350%;
+  width: 450px;
+}
+.btn{
+  margin-left: 50px;
+}
+.login-form{
+  background: goldenrod;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-left: 450px;
+
+
+}
